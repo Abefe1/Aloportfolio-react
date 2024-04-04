@@ -1,5 +1,6 @@
 // import { useState } from 'react'
 import './App.css'
+// import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 
 function App() {
@@ -26,6 +27,11 @@ function App() {
         projectImage:"./images/calculator.png"
     }]
 
+    const skill=["./images/html.png","./images/css.png", "./images/javascript.png", "./images/ts.png",
+            "./images/git.png", "./images/react.png", "./images/figma.png", "./images/illustrator.png",
+            "./images/photoshop.png", "./images/indesign.png", "./images/node.png", "./images/java.png", 
+            "./images/spring.png", "./images/python.png", "./images/mysql.png", "./images/postman.png"]
+
 return (
     <>
     <header>
@@ -49,7 +55,7 @@ return (
                 </div>
                 <div className="qoute">
                     <h1>Lukmon Akingbade</h1>
-                    <h2>If the mind can visualize it, it can be achieved</h2>
+                    <h2>An entry level Springboot developer and React developer</h2>
                 </div>
                 <div className="qoute" id="q1">
                     <p>I am Currently expanding skills with React library, Node.js and TypeScript.
@@ -110,25 +116,11 @@ return (
                 <hr className="color"/>
             </div>
 
+            
             <div className="skill-wrapper">
-                <img className="card" width="100" height="100" src="./images/html.png" alt="html-5--v1"/>
-                <img className="card" width="100" height="100" src="./images/css.png" alt="css3"/>
-                <img className="card" width="100" height="100" src="./images/javascript.png" alt="javascript--v1"/>
-                <img className="card" width="100" height="100" src="./images/ts.png" alt="TS"/>
-                <img className="card" width="100" height="100" src="./images/git.png" alt="git"/>
-                <img className="card" width="100" height="100" src="./images/react.png" alt="React"/>
-                <img className="card" width="100" height="100" src="./images/figma.png" alt="FIGMA"/>
-                <img className="card" width="100" height="100" src="./images/illustrator.png" alt="MySQL"/>
-                <img className="card" width="100" height="100" src="./images/photoshop.png" alt="postman"/>
-                <img className="card" width="100" height="100" src="./images/indesign.png" alt="postman"/>
-
-                <img className="card" width="100" height="100" src="./images/node.png" alt="Node"/>
-                <img className="card" width="100" height="100" src="./images/java.png" alt="java"/>
-                <img className="card" width="100" height="100" src="./images/Springboot.png" alt="SPRING"/>
-                <img className="card" width="100" height="100" src="./images/python.jpg" alt="python"/>
-                <img className="card" width="100" height="100" src="./images/mysql.png" alt="MySQL"/>
-                <img className="card" width="100" height="100" src="./images/postman.png" alt="postman"/>
-                
+                {skill.map((link, index)=>{
+                    <img key={index} className="card" width="100" height="100" src={link} alt=""/>
+                })}
             </div>
 
         </section>

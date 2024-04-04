@@ -270,7 +270,7 @@ hr.color{
     background-color: #0c1649;
     border-radius: 11px;
     box-shadow: 0 0.3rem 0.8rem #32B4FF;
-    padding: 0.8rem;
+    /* padding: 0.8rem; */
     margin: 0.8rem;
     height: 90%;
     width: 30%;
