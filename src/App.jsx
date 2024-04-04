@@ -14,7 +14,7 @@ function App() {
         projectName:"Ile Ounje",
         projectDescription:"A dummy website htmlFor a dummy company that specializes in Food  built as a className assignment in SAIL TECHTALENT.",
         projectLink:"https://abefe1.github.io/white-Webpage/white.html",
-        projectImage:"./images/quote-generator.png"
+        projectImage:"./images/ounje.png"
     }, {
         projectName:"Age-Calculator",
         projectDescription:"An Age-Calculator built as a result of participation in frontendmentor.io. It was built with HTML, CSS and TypeScript.",
@@ -30,7 +30,7 @@ function App() {
     const skill=["./images/html.png","./images/css.png", "./images/javascript.png", "./images/ts.png",
             "./images/git.png", "./images/react.png", "./images/figma.png", "./images/illustrator.png",
             "./images/photoshop.png", "./images/indesign.png", "./images/node.png", "./images/java.png", 
-            "./images/spring.png", "./images/python.png", "./images/mysql.png", "./images/postman.png"]
+            "./images/Springboot.png", "./images/python.jpg", "./images/mysql.png", "./images/postman.png"]
 
 return (
     <>
@@ -119,8 +119,8 @@ return (
             
             <div className="skill-wrapper">
                 {skill.map((link, index)=>{
-                    <img key={index} className="card" width="100" height="100" src={link} alt=""/>
-                })}
+                    return(<img key={index} style={{width:`100px`, height:`100px`}} className="card" src={link} alt="skilss"/>
+                )})}
             </div>
 
         </section>
@@ -135,7 +135,7 @@ return (
 
                 {project.map((card, index)=>{
                     return(
-                        <div key={index} className="project-container project-card">
+                        <div key={index} className="project-container project-card" >
                     {/* <div className="project-display">  */}
                         <div className="p-image" style={{backgroundImage:`url(${card.projectImage})`, backgroundRepeat:`no-repeat`, backgroundPosition:`center`, backgroundSize:`cover`}}> 
                         {/* <img src="./images/quote-generator.png" alt="Home-Schooling" loading="lazy" className="project-pic"/>  */}

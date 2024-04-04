@@ -9,7 +9,7 @@ const Projects=()=>{
         projectName:"Ile Ounje",
         projectDescription:"A dummy website htmlFor a dummy company that specializes in Food  built as a className assignment in SAIL TECHTALENT.",
         projectLink:"https://abefe1.github.io/white-Webpage/white.html",
-        projectImage:"./images/quote-generator.png"
+        projectImage:"./images/ounje.png"
     }, {
         projectName:"Age-Calculator",
         projectDescription:"An Age-Calculator built as a result of participation in frontendmentor.io. It was built with HTML, CSS and TypeScript.",
@@ -29,12 +29,12 @@ const Projects=()=>{
                 {project.map((card, index)=>{
                     return(
                         <div key={index} className="project-container project-card">
-                    {/* <div className="project-display">  */}
+                        {/* <div className="project-display">  */}
                         <div className="p-image" style={{backgroundImage:`url(${card.projectImage})`, backgroundRepeat:`no-repeat`, backgroundPosition:`center`, backgroundSize:`cover`}}> 
                         {/* <img src="./images/quote-generator.png" alt="Home-Schooling" loading="lazy" className="project-pic"/>  */}
                         </div>
                     
-                    {/* </div> */}
+                        {/* </div> */}
                     <div className="project-text">
                     <div className="projectText"><h3 className="project-title"> {card.projectName}</h3>
                         <p className="project-details"> {card.projectDescription}</p>
