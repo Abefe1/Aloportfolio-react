@@ -1,0 +1,53 @@
+.skill-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 100vw;
+    /* height: 90vh; */
+    margin: auto;
+    text-align: center;
+    /* margin-bottom: 2.5rem;
+    margin-top: 5rem; */
+    color: #32B4FF;
+    /* background-color: blue; */
+    
+  }
+
+  
+  .skillHead{
+    /* margin-bottom: 2rem; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* align-self: center; */
+    width: 100%;
+    height: 40%;
+    /* background-color: azure; */
+  }
+  
+  .skills-wrapper{
+    max-width: 70vw;
+    align-self: center;
+    height: 60%;
+    /* background-color: aqua; */
+    margin: auto;
+    margin-top: 0;
+  }
+  .skill-wrapper img{
+    padding: 1rem;
+    border-radius: 1rem;
+    width: 80px;
+    height: 80px;
+  
+  }
+  
+  .card{
+    background-color: #0c1649;
+    border-radius: 1rem;
+    box-shadow: 0 3px 10px #32B4FF;
+    padding: 0.8rem;
+    margin: 0.3rem;
+  }
+  

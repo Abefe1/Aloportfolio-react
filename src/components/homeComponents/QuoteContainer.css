@@ -1,0 +1,34 @@
+.quoteSec{
+    width: 100vw;
+    max-width: 100vw;
+    /* height: 90vh; */
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+}
+
+.qoute-container{
+    display: grid;
+    margin: 6rem 6rem 3rem 4rem;
+}
+.qoute{
+    margin: 0.3rem;
+}
+.qoute p{
+    color: #5d94ca;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+.qoute h1{
+    color:#32B4FF;
+    font-size: 5rem;
+    padding: 5px 0px;
+}
+.qoute h2{
+    color:rgba(245, 245, 245, 0.76);
+    /* padding: 5px 0px; */
+    font-size: 3rem;
+}
+#q1{
+    margin-top: 0.5rem;
+}

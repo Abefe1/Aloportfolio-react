@@ -1,0 +1,208 @@
+.contact-details{
+    background-color: #0c1649;
+    border-radius: 11px;
+    box-shadow: 0 0.3rem 0.8rem #32B4FF;
+    padding: 0.8rem;
+    margin: 0.8rem;
+    width: 40vw;
+    margin: 0 auto;
+  }
+  
+  .contact-details h3{
+    color: #5d94ca;
+    margin-bottom: 30px;
+  }
+  
+  .contact-details p{
+    color: rgba(245, 245, 245, 0.76);
+    line-height: 1.5;
+    width: 85%;
+    margin: 0 auto;
+    margin-bottom: 2.5%;
+  }
+  .contact-details a{
+    text-decoration: none;
+    margin: 0rem 0.8rem;
+  }
+  
+  
+  .connectWithMeSection{
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0rem;
+    /* padding: 50px 120px 180px 120px; */
+  }
+  
+  .connectWithMeSectionContentsContainer{
+    width: 80vw;
+    padding: 4rem 0rem;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 5rem;
+    justify-content: center;
+    align-items: center;
+    background-color: #0c1649;
+    border-radius: 11px;
+    /* padding: 3rem; */
+  }
+  
+  .connectWithMeTopSection{
+    width: 60%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .connectWithMeTextContainer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .connectWithMeTextContainer h2{
+    font-size: 2rem;
+    color: #32B4FF;
+  }
+  
+  .connectWithMeDescriptionTextContainer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-self: center;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    /* background-color: aquamarine; */
+    margin-left: 2rem;
+  }
+  
+  .connectWithMeDescriptionTextContainer p{
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-align: center;
+    width: 100%;
+    
+  }
+  
+  .connectWithMeBottomSection{
+    width: 60%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 6rem;
+  }
+  
+  .connectWithMeBottomLeftContainer{
+    width: 100%;
+    height: auto;
+    margin: auto;
+  }
+  
+  .form{
+    width:100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 3rem;
+  }
+  
+  .formContents{
+    width:100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    row-gap: 2rem;
+  }
+  
+  
+  .contactcontainers{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5rem;
+    justify-content: center;
+    align-items: start;
+  }
+  
+  .contactcontainers input{
+    width:100%;
+    height: 50px;
+    border: none;
+    outline: none;
+    border: 2px solid #32B4FF;
+    /* padding-left: 1rem; */
+    border-radius: 0.5rem;
+  
+  }
+  
+  .contactcontainer input:focus, textarea:focus{
+    border: 2px solid #32B4FF;
+     
+  }
+  
+  .contactcontainer input::placeholder, textarea::placeholder{
+    margin-left: 1rem;
+     
+  }
+
+  #textAreaContainer{
+    width: 100%;
+  }
+  
+  .textareaInputField{
+    width:100%;
+    /* max-width: 70%; */
+    height: auto;
+    resize: none;
+    border: none;
+    outline: none;
+    border: 2px solid #32B4FF;
+    /* padding-left: 1rem; */
+    padding-top: 1rem;
+    border-radius: 0.5rem;
+  }
+  
+  .sendMessageButton{
+    background: #32B4FF;
+    border: none;
+    padding: 1rem 4rem;
+    /* border: 2px solid #4831D4; */
+    border-radius: 0.5rem;
+    color: #FFFFFF;
+    font-size: 1rem;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-delay: 0.1s;
+    transition-timing-function: ease-in-out;
+    justify-self: center;
+  }
+  
+  .sendMessageButton:hover {
+    background: #4831D4;
+    font-size: 1rem;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .connectWithMeBottomRightContainer{
+    width: 50%;
+    height: 70vh;
+    background-image: url("./Images/illustration.svg");
+    margin-right: 3rem;
+  }

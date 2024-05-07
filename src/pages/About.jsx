@@ -5,66 +5,12 @@ const About=()=> {
     return(
         <>
         <section className="headerAndHeroSection">
-            <div className="headerContainer">
-                <div className="imageAndNameContainer">
-                    <div className="imgContainer">
-                        <a href="./index.html" className="imageContainer">
-                            <img src="./Images/Myimg.svg" alt=""/>
-                        </a>
-                    </div>
-
-                    <div className="nameContainer">
-                        <a href="./index.html" className="nameContainer">
-                            <h3 className="preciousText">Precious</h3>
-                        </a>
-                    </div>
-                </div>
-
-                <div className="menuContainer" id="menu" >
-                    <img className="menu" src="./Images/menu.svg" alt=""/>
-                </div>
-
-                <div className="navigationLinksContainer" id="navigationLinksContainer">
-                    <a href="#projectSection" className="projectLink" id="projectLink">
-                        <h3>My Projects</h3>
-                    </a>
-                    
-                    <a href="./about.html" className="AboutMeLink">
-                        <h3>About Me</h3>
-                    </a>
-
-                    <a href="https://docs.google.com/document/d/1OpAwYGPbY8fpR_0Kz1lWVcY2Jhhxv4LR/edit?usp=drivesdk&ouid=111677626397766657124&rtpof=true&sd=true" className="ResumeLink" target="_blank">
-                        <h3>Resume</h3>
-                    </a>
-                </div>
-
-                <div className="navigationLinksContainerTwo" id="navigationLinksContainerTwo">
-                    <div className="iconContainer" id="closeIcon">
-                        <img src="./Images/close.svg" alt=""/>
-                    </div>
-
-                    <div className="navTwoContainer">
-                        <a href="./index.html#projectSection" className="projectLink" id="projectLink">
-                            <h3>My Projects</h3>
-                        </a>
-                        
-                        <a href="./about.html" className="AboutMeLink">
-                            <h3>About Me</h3>
-                        </a>
         
-                        <a href="https://drive.google.com/file/d/1udY_4QsoIFceXRAvXUTf9UU8ijFdbMK0/view?usp=drivesdk" className="ResumeLink" target="_blank">
-                            <h3>Resume</h3>
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-
             <div className="heroSectionContainer">
                 <div className="heroTextContainer">
                     <div className="nameAndProfessionContainer">
                         <div className="HelloNameContainer">
-                            <h2>Hi!<span><img src="./Images/wave.svg" alt=""/></span>  I'm Precious!</h2>
+                            <h2>Hi!<span><img src="./Images/wave.svg" alt=""/></span>  I'm Lukmon!</h2>
                         </div>
                     </div>
         

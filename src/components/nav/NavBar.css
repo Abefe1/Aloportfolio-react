@@ -1,0 +1,53 @@
+.linkswrapper{
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    margin-right: 50px;
+}
+
+nav {
+    position: -webkit-sticky;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    box-shadow: 0 3px 5px #32B4FF;
+    width: 100%;
+    background-color: black;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+nav h1 {
+    color: rgba(18, 105, 204, 0.877);
+    margin-left: 1.5rem;
+}
+
+
+nav a {
+    color: rgba(18, 105, 204, 0.877) ;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: rgba(11, 224, 224, 0.904);
+    border-bottom: 2px solid rgba(11, 224, 224, 0.904);
+}
+
+nav ul {
+    display: flex;
+    gap: 2rem;
+    margin-right: 1.5rem;
+}
+.menu {
+    color: rgba(245, 245, 245, 0.904);
+    font-size: 4rem;
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+    display: none;
+}
