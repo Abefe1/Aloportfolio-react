@@ -1,5 +1,4 @@
 import React from 'react'
-import Links from '../links/Links'
 import './ProjectsDiv.css'
 
 
@@ -63,7 +62,9 @@ const ProjectsDiv = () => {
 
             
         </div>
-        <button style={{backgroundColor:`#32B4FF`,color:`white`, borderRadius:`5px`, fontSize:`1rem`, padding:`10px`}}><Links to={"/projects"} label={"View More"}  /></button>
+        {/* <button style={{backgroundColor:`#32B4FF`,color:`white`, borderRadius:`5px`, fontSize:`1rem`, padding:`10px`}}><Links to={"/projects"} label={"View More"}  /></button> */}
+
+        
     </section>
 
   )

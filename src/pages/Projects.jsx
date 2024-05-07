@@ -24,7 +24,8 @@ const Projects=()=>{
     
     
     return(
-        <div className="projects-container">
+        <section className="projectSec">
+            <div className="projects-container">
 
                 {project.map((card, index)=>{
                     return(
@@ -52,6 +53,13 @@ const Projects=()=>{
 
                 
             </div>
+
+            <footer className="footer">
+                <div className="foot">
+                    Copyright &copy; Akingbade Lukmon 2024
+                </div>
+            </footer>
+        </section>
     )
 }
 

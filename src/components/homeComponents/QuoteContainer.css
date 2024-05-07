@@ -4,7 +4,20 @@
     /* height: 90vh; */
     /* background-color: aqua; */
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.contact-detail{
+    width: max-content;
+    background-color:#0c1649 ;
+    border-radius: 1rem;
+    padding: 0.5rem 1rem;
+    gap: 1rem;
+    margin-top: 2rem;
+    display: flex;
+    border: 2px solid #32B4FF;
 }
 
 .qoute-container{
@@ -15,7 +28,7 @@
     margin: 0.3rem;
 }
 .qoute p{
-    color: #5d94ca;
+    color: #32B4FF;
     font-size: 1.4rem;
     font-weight: 500;
 }
