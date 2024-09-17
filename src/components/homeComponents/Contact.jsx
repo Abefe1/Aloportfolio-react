@@ -24,7 +24,7 @@ const Contact = () => {
 
             <div className="connectWithMeBottomSection" id="contact">
                 <div className="connectWithMeBottomLeftContainer">
-                    <form action="https://api.web3forms.com/submit" method="POST" className="form" id="form">
+                    <form action="https://formspree.io/f/mzzpqldq" method="POST" className="form" id="form">
                         <div className="formContents">
 
                             <input type="hidden" name="access_key" value="154cf22a-5a0e-44b8-aa10-1f3eea8bcf99"/>
